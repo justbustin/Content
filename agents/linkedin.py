@@ -16,7 +16,7 @@ class LinkedinResponse(Model):
     text: str
 
 linkedin_poster = Agent(name="linkedin_poster", seed="asdasdasdads")
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API"))
 
 @linkedin_poster.on_event("startup")
 async def introduce_agent(ctx: Context):
