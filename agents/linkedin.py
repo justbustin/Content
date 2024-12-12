@@ -3,6 +3,10 @@ import google.generativeai as genai
 
 import requests
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 class LinkedinRequest(Model):
     text: str
@@ -12,7 +16,7 @@ class LinkedinResponse(Model):
     text: str
 
 linkedin_poster = Agent(name="linkedin_poster", seed="asdasdasdads")
-genai.configure(api_key="AIzaSyCfh8wzY25yy0tMr7h4_6j2C8qULNu1tbE")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 @linkedin_poster.on_event("startup")
 async def introduce_agent(ctx: Context):
