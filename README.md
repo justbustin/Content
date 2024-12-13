@@ -43,7 +43,7 @@ pip install uagents
 pip install google-generativeai
 ```
 
-Install all node modules:
+Install all node modules (be in the root):
 ```
 npm install
 ```
