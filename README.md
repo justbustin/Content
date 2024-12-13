@@ -1,6 +1,6 @@
 ## Conti
 
-Conti is your personal social media manager! Built using fetch.ai agents, it's able to analyze your brands website, and gives a clear, improved picture of what you want to convey as a brand. It is able to generate and automate scheduling posts for four different platforms: Facebook, X, Linkedin, and Instagram. Currently, only posting on LinkedIn is available.
+Conti is your personal social media manager built using fetch.ai agents! Given your brands website, it's able to analyze it and gives a clear, improved picture of what you want to convey as a brand. It is able to generate and automate scheduling posts on four different social media platforms: Facebook, X, Linkedin, and Instagram. Currently, only posting on LinkedIn is available.
 
 <img width="1489" alt="image" src="https://github.com/user-attachments/assets/165814ec-50c6-4214-a538-24052e889b33" />
 <img width="1488" alt="image" src="https://github.com/user-attachments/assets/71137c9d-1415-4d81-853b-cd20a4824157" />
